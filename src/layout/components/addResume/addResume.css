@@ -1,0 +1,84 @@
+.addResume h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.addResume p.description {
+  font-size: 14px;
+  color: #ccc;
+  margin: 10px 0 30px;
+}
+
+.addResume .form .input-field {
+  margin-bottom: 15px;
+}
+
+.addResume .form .input-field input {
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.addResume .form .input-field input::placeholder {
+  color: grey;
+  font-size: 12px;
+}
+
+.addResume .form .optionSection .options {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.addResume .form .optionSection .options .option {
+  display: flex;
+  align-items: center;
+  color: #3580bb;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.addResume .form .optionSection .options .option:last-child {
+  border: none;
+}
+
+.addResume .form .optionSection .options .option i {
+  margin-right: 10px;
+}
+
+.addResume .form .optionSection .options .option p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.addResume .form .optionSection .options .option input {
+  display: none;
+}
+
+.addResume .checkbox-input {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.addResume .checkbox-input p {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.addResume .checkbox-input p a {
+  color: #3580bb;
+}
+
+.addResume .checkbox-input p a:first-child {
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+}

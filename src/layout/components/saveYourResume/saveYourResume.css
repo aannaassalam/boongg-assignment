@@ -1,0 +1,78 @@
+.saveYourResume {
+  height: 100%;
+}
+
+.saveYourResume h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.saveYourResume p.description {
+  font-size: 14px;
+  color: #ccc;
+  margin: 10px 0 30px;
+}
+
+.saveYourResume .form .input-field {
+  margin-bottom: 15px;
+}
+
+.saveYourResume .form .input-field h5 span {
+  font-size: 12px;
+  color: #ccc;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.saveYourResume .form .input-field input {
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.saveYourResume .form .input-field input::placeholder {
+  color: grey;
+  font-size: 12px;
+}
+
+.saveYourResume .form .input-field button {
+  border: 2px solid #3580bb;
+  color: #3580bb;
+  width: 100%;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.saveYourResume .form .input-field input[type="file"] {
+  display: none;
+}
+
+.saveYourResume .checkbox-input {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.saveYourResume .checkbox-input p {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.saveYourResume .checkbox-input p a {
+  color: #3580bb;
+}
+
+.saveYourResume .checkbox-input p a:first-child {
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+}

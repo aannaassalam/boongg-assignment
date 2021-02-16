@@ -1,0 +1,119 @@
+.createAccount {
+  height: 100%;
+  width: 90%;
+}
+
+.createAccount h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.createAccount h4 span {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.createAccount h4 span:last-child {
+  color: #65a0cc;
+  cursor: pointer;
+}
+
+.createAccount .socialMedia {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 20px;
+}
+
+.createAccount .socialMedia div {
+  width: 47%;
+  padding: 8px 10px;
+  background-color: #4961a8;
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.createAccount .socialMedia div:last-child {
+  background-color: #ea4435;
+}
+
+.createAccount .socialMedia div i {
+  font-size: 18px;
+}
+
+.createAccount .socialMedia div p {
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.createAccount .orSection {
+  width: 100%;
+  padding: 5px;
+  position: relative;
+}
+
+.createAccount .orSection::before {
+  content: "";
+  width: 40%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  left: 90px;
+  transform: translate(-50%, 0);
+  background-color: #ccc;
+}
+
+.createAccount .orSection::after {
+  content: "";
+  width: 40%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  right: -90px;
+  transform: translate(-50%, 0);
+  background-color: #ccc;
+}
+
+.createAccount .orSection p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #ccc;
+  text-align: center;
+}
+
+.createAccount .form .inputField {
+  margin-bottom: 10px;
+}
+
+.createAccount .form .inputField p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.createAccount .form .inputField input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 3px 5px;
+  margin-top: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
